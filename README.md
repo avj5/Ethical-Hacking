@@ -4,10 +4,14 @@ For our project we decided to do our project over wireshark packet analysis.
 
 #### WireShark
 We used Wireshark to analyze the packets that we were getting sent to us.
+
+
 Link to Wireshark: https://www.wireshark.org/download.html
 
 #### Kali Linux
 To do this project we had to use a two Virtual Machines. We used Kali Linux to be able to conduct our research and observations. We just had to get two VMs to connect with each other and then we could send packets between them.
+
+
 Link to Kali: https://www.kali.org/get-kali/#kali-virtual-machines
 
 #### Project steps
