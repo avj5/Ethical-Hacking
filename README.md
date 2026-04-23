@@ -18,6 +18,4 @@ First we created a fake account on a practice website. We entered fake informati
 Sent SYN packets across one VM to another VM. Doing this we saw all of the SYN packets on wireshark. This also showed us all the ports on the target computer. We also saw a lot of half open ports and handshakes that shut down the connection.
 
 ##### Step 3
-In this step we created a Three-way Handshake between the computers. Which didn't actually work for us, but we ended up getting one to show up for us on the same computer if we just went to a google browser.
-
-#### Step 
+In this stWEep we created a Three-way Handshake between the computers. Which didn't actually work for us, but we ended up getting one to show up for us on the same computer if we just went to a google browser. Doing so we could see the SYN, SYN/ACK, and ACK packets in wireshark. A man in the middle attack when sit in between the two computers. So one computer would send the SYN packet and the man in the middle will get the packet and then send it to the target computer. Then the target computer would send a SYN/ACK back and the man in the middle would get it first then send it back to the other computer. So on and so forth. So the man in the middle can change the information what is being sent to the target computer, before it gets there.
